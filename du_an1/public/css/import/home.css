@@ -1,0 +1,417 @@
+
+/* nav*/
+#slider{
+    z-index: 1;
+    position: relative;
+}
+#slider li {float: left;margin: 10px;
+    list-style: none;
+    height: 15px;
+    width: 15px;
+    margin: 10px;
+    margin-right: 6px;
+    background: gray;
+    border-radius: 50%
+    ;text-indent: 900000px;
+    cursor: pointer;
+    transition: 0.4s;
+    border: 1px solid white;
+}
+
+#slider ul li:hover {
+    background: black;
+}
+#slider ul li.active {
+    background: white;
+    border: 1px solid lightblue;
+    
+}
+#slider ul {
+    top: 91%;
+    left: 0%;
+    margin-left: 47%;
+    position: absolute;
+    display: inline-block;
+    z-index: 2;
+}
+
+#next {
+    position: absolute;
+    top: 40%;
+    right: 20px;
+    color: white;
+    font-size: 46px;
+}
+
+
+#prev {
+    position: absolute;
+    top: 40%;
+    left: 20px;
+    color: white;
+    font-size: 46px;
+}
+
+    
+   
+
+#slider img{
+
+    width: 100%;
+    height: 575px;
+}
+#nav{
+    padding-top: 0px;
+    
+}
+#wp_content{
+    background-color: #f2f2f2;
+    margin-top: 66px;
+}
+.main-1{
+    display: block;
+    position: relative;
+}
+.list-nav{
+    position: absolute;
+    top: 28px;
+    right: 217px;
+}
+.list-nav i{
+    position: absolute;
+    right: 101px;
+    top: 8px;
+    font-size: 44px;
+}
+.list-nav .title-nav p{
+    color: white;
+    font-size: 23px;
+    font-weight: 600;
+    text-transform: uppercase;
+    width: 282px;
+    position: absolute;
+    right: -210px;
+}
+.list-nav .title-nav span{
+    color: white;
+    text-transform: uppercase;
+    position: absolute;
+    width: 200px;
+    left: -62px;
+    margin-top: 10px;
+}
+/*feature-product-wp*/
+
+#feature-product-wp{
+    background: white;
+    min-height: 958px;
+    margin-top: 92px;
+    border: 1px solid white;
+    border-radius: 18px;
+}
+#feature-product-wp .section-head h3{
+    
+    padding-top: 21px;
+    font-size: 25px;
+   text-align: center;
+    text-transform: uppercase;
+}
+/* wp-pro-Highlights */
+#wp-pro-Highlights{
+    margin-left: 24px;
+    margin-top: 55px;
+  
+}
+#wp-pro-Highlights .feature-product-left-top{
+    position: relative;
+    margin-bottom: 16px;
+
+}
+.feature-product-left-top .bag-opacty{
+    z-index: 1;
+    transition: 0.3s;
+    width: 81%;
+    height: 81%;
+    background: #00000085;
+    position: absolute;
+    top: 8%;
+    left: 9%;
+    opacity: 0;
+ 
+}
+.feature-product-left-top:hover .bag-opacty{
+    opacity: 1;
+   
+}
+.feature-product-left-top .list-show{
+   z-index: 2;
+    position: absolute;
+    height: 44px;
+    background: orange;
+    width: 106px;
+    top: 67%;
+    left: 37%;
+    transition: 0.3s;
+    transform: scale(0);
+}
+.feature-product-left-top .list-show a{
+    line-height: 43px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    margin-left: 19px;
+}
+
+.feature-product-left-top:hover .list-show {
+          transform: scale(1);
+}
+/*55655555555*/
+
+#pro-Highlights-left{
+   min-height: 817px;
+    width: 410px; 
+     float: left;
+}
+#pro-Highlights-left .feature-product-left-top{
+    position: relative;
+    margin-bottom: 16px;
+
+}
+.feature-product-left-top .bag-opacty{
+    z-index: 1;
+    transition: 0.3s;
+    width: 81%;
+    height: 81%;
+    background: #00000085;
+    position: absolute;
+    top: 8%;
+    left: 9%;
+    opacity: 0;
+ 
+}
+.feature-product-left-top .title {
+    position: absolute;
+    left: 35%;
+    z-index: 5;
+    top: 214px;
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.feature-product-left-top:hover .bag-opacty{
+    opacity: 1;
+   
+}
+.feature-product-left-top .list-show{
+   z-index: 2;
+    position: absolute;
+    height: 44px;
+    background: orange;
+    width: 106px;
+    top: 67%;
+    left: 37%;
+    transition: 0.3s;
+    transform: scale(0);
+}
+.feature-product-left-top .list-show a{
+    line-height: 43px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    margin-left: 19px;
+}
+
+.feature-product-left-top:hover .list-show {
+          transform: scale(1);
+}
+#wp-pro-Highlights-mid{
+    float: left;
+    width: 470px;
+    display: block;
+    min-height: 817px;
+}
+/*list-product-wp*/
+#list-product-wp {
+    margin-top: 100px;
+    padding-top: 71px;
+    background: white;
+    min-height: 838px;
+    border: 1px solid white;
+    border-radius: 13px;
+}
+#list-product-wp .section-head{
+
+text-align: center;
+margin-bottom: 18px;
+}
+#list-product-wp .section-head h3{
+    font-size: 25px;
+    margin-bottom: 64px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.product-top{
+    margin-left: 24px;
+}
+
+.product-top ul {
+    margin-left: 21px;
+    padding-bottom: 25px;
+}
+.product-top ul.list-product-below{
+    padding-top: 44px;
+    border-top: 1px solid #b2afaf;
+
+}
+.product-top ul li{
+    margin-bottom: 39px;
+    margin-right: 25px;
+}
+.product-top ul li .card {
+    border: none;
+    transition: 0.4s;
+    transform: scale(1);
+}
+.product-top ul li:hover .card {
+    transform: scale(1.1);
+}
+.product-top ul li .card img.card-img-top {
+    transition: 0.4s;
+    transform: scale(1);
+}
+.product-top ul li:hover .card {
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.product-top ul li a.name-product {
+    text-decoration: none;
+    color: black;
+}
+.product-top ul li p.price-product.fl-left {
+    padding-left: 16px;
+    font-size: 20px;
+    font-weight: 600;
+    color: blue;
+    padding-right: 11px;
+}
+.product-top ul li p.discount {
+    font-size: 12px;
+    text-decoration: line-through;
+} /* pagding*/
+.pagding{
+    margin-top: 36px;
+}
+.pagding ul {
+    margin-top: 34px;
+    margin-left: 38%;
+}
+.pagding ul li {
+    float: left;
+    margin-right: 11px;
+}
+.pagding ul li a{
+    border-radius: 4px;
+    background: white;
+    border: 1px solid #a59c9c;
+    padding: 6px 10px;
+    color: black;
+}
+
+.pagding ul li:hover a {
+    background: #1f73cc;
+}
+#trademark-product{
+    min-height: 256px;
+    margin-top: 106px;
+    background: white;
+    border: 1px solid white;
+    border-radius: 14px;
+}
+#trademark-product .section-head{
+margin-bottom: 32px;
+text-align: center;
+}
+#trademark-product .section-head h3 {
+    font-size: 25px;
+    text-transform: uppercase;
+    padding-top: 31px;
+}
+#trademark-product ul {
+    padding-top: 49px;
+    margin-left: 61px;
+}
+#trademark-product ul li{
+    margin-right: 86px;
+}
+/*wp-evaluate*/
+
+#wp-evaluate .section-head{
+   
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 100px;
+    font-family: 'FontAwesome';
+}
+
+
+#wp-evaluate .section-head {
+    font-size: 25px;
+}
+#wp-evaluate .list-evaluate{
+    position: relative;
+    margin-top: 70px;
+    background-color: #d9bf8f;
+    min-height: 400px;
+}
+.wp-title {
+    padding-top: 133px;
+}
+.title-evaluate{
+    width: 586px;
+}
+.evaluate-left {
+    float: left;
+    padding-top: 67px;
+}
+.evaluate-left img {
+    float: left;
+    margin-top: 14px;
+}
+ p.title-evaluate {
+    
+        font-size: 17px;
+        color: white;
+    
+}
+p.name {
+    font-size: 26px;
+}
+ p.title-industry {
+    color: #7f7e7e;
+    font-size: 12px;
+}
+.evaluate-two{
+    float: right;
+} 
+.evaluate-right {
+    margin-top: 40px;
+    
+}
+.evaluate-right .wp-title {
+    padding-left: 32px;
+    padding-top: 171px;
+}
+.evaluate-right img {
+    float: right;
+}
+.evaluate-right p.title-industry {
+    margin-left: 207px;
+    color: #7f7e7e;
+}
+.evaluate-right p.name {
+    font-size: 26px;
+    margin-left: 94px;
+}

@@ -1,0 +1,248 @@
+body {
+    font-size: 14px;
+    font-family: 'Noto Serif';
+    line-height: 23px;
+    font-weight: 500;
+    background-color: #dad5d5;
+}
+
+#wrapper {
+    background-color: #f7f7f7;
+    min-height: 500px;
+}
+
+#menu-sm ul {
+    width: 100%;
+    height: 40px;
+}
+
+#menu-sm ul li {
+    line-height: 40px;
+    padding-right: 12px;
+}
+
+#menu-sm ul li i.fa.fa-chevron-right {
+    font-size: 15px;
+    margin-right: 7px;
+    margin-top: 11px;
+}
+
+#menu-sm ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 17px;
+    display: block;
+}
+
+
+/* content/*
+/*sibarde*/
+
+#sibarde {
+    width: 255px;
+    min-height: 500px;
+    margin-right: 27px;
+}
+
+.section-hear {
+    height: 40px;
+    background-color: #949090;
+}
+
+.list-product li {
+   
+    background: white;
+    border: 1px solid #f7f7f7;
+}
+
+.section-hear h2 {
+    font-weight: 600;
+    line-height: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffff;
+    font-size: 19px;
+}
+
+.list-product li a {
+    color: #5c5a5a;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 13px;
+    display: block;
+}
+
+#sibarde .list-product>li:hover a {
+    background-color: rgb(192, 189, 189);
+}
+
+#sibar-bot {
+    margin-top: 27px;
+    background: white;
+}
+
+#sibar-bot table {
+    margin-left: 14px;
+}
+
+#sibar-bot table thead tr td {
+    font-weight: 600;
+    font-size: 19px;
+    color: black;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-top: 14px;
+}
+
+#sibar-bot table tbody tr td {
+    padding-bottom: 10px;
+}
+
+#sibar-bot table tbody tr td input[type="radio"] {
+    margin-right: 5px;
+}
+
+#wp-content {
+    margin-top: 1px;
+    margin-bottom: 50px;
+}
+
+#content {
+    min-height: 500px;
+    width: 1037px;
+}
+
+#hear-content {
+    height: 70px;
+}
+
+#hear-content p {
+    font-size: 22px;
+    text-transform: uppercase;
+    display: inline;
+}
+
+#hear-content .wp-filter p.desc {
+    margin-bottom: 5px;
+    color: #666;
+    font-size: 14px;
+}
+
+#hear-content .wp-filter form select {
+    position: relative;
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #cecece;
+    color: #666;
+}
+
+#hear-content .wp-filter button {
+    position: absolute;
+    background: #bebebe;
+    border: none;
+    outline: none;
+    padding: 3px 15px;
+    line-height: 25px;
+    color: #fff;
+    top: 209px;
+}
+
+.wp-filter {
+    margin-right: 10px;
+}
+
+
+/* wp-list-content*/
+
+.list-product-wp {
+    margin-bottom: 20px;
+}
+
+.list-product-wp ul li {
+    margin-bottom: 27px;
+    margin-right: 11px;
+    border: 1px solid white;
+    width: 194px;
+    background: white;
+    border-radius: 11px;
+}
+
+.list-product-wp ul li .card-2 {
+    padding: 10px 10px;
+}
+
+.list-product-wp ul li .card-2 a img {
+    width: 168px;
+}
+
+.list-product-wp ul li .card-2 .card-body2 .name-product {
+    width: 184px;
+    padding-left: 8px;
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    padding-bottom: 10px;
+}
+
+.list-product-wp ul li .card-2 .card-body2 p.price-product.fl-left {
+    padding-right: 10px;
+    color: red;
+    font-size: 17px;
+}
+
+.list-product-wp ul li .card-2 .card-body2 p.discount {
+    color: black;
+    font-size: 13px;
+    text-decoration: line-through;
+}
+
+.pagding {
+    margin-top: 36px;
+}
+
+.pagding ul {
+    margin-left: 31%;
+}
+
+.pagding ul li {
+    margin-right: 11px;
+}
+
+.pagding ul li a {
+    text-decoration: none;
+    border-radius: 4px;
+    background: white;
+    border: 1px solid #a59c9c;
+    padding: 6px 10px;
+    color: black;
+}
+
+.pagding ul li:hover a {
+    background: #1f73cc;
+}
+
+#trademark-product {
+    min-height: 256px;
+    margin-top: 106px;
+    background: white;
+    border: 1px solid white;
+    border-radius: 14px;
+}
+
+#trademark-product .section-head {
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+#trademark-product .section-head h3 {
+    text-transform: uppercase;
+}
+
+#trademark-product ul {
+    padding-top: 49px;
+    margin-left: 169px;
+}
+
+#trademark-product ul li {
+    margin-right: 86px;
+}

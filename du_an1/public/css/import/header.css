@@ -1,0 +1,243 @@
+body {
+    margin: 0px auto;
+    font-size: 14px;
+    font-family: 'Noto Serif';
+    line-height: 23px;
+    
+}
+
+#wp_header {
+    height: 143px;
+    width: 100%;
+    z-index: 2;
+   /*position: fixed;*/
+}
+
+#container-head {
+    height: 38px;
+    background: #f2f2f2;
+}
+
+#contact {
+    padding: 9px 0px;
+}
+
+#contact .list-contact {
+    margin-left: 111px;
+}
+
+#contact .list-contact p {
+    margin-right: 18px;
+}
+
+#user .menu_user li {
+    margin: 0px 18px;
+    height: 19px;
+    padding: 9px 0px;
+}
+
+#user .menu_user li p {
+    text-transform: uppercase;
+}
+
+#user .menu_user li .list-user {
+    border-right: 2px solid black;
+    padding-right: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+#user .menu_user li p a {
+    color: black;
+    text-decoration: none;
+}
+
+
+/* end conatiner_hear*/
+
+#container-body {
+    background-color: white;
+    height: 106px;
+}
+
+#logo img {
+    width: 91px;
+    margin: 13px 16px 15px 62px;
+}
+
+#container-body .search-wp {
+    position: relative;
+    margin-top: 45px;
+}
+
+#container-body .search-wp input {
+    background: #f2f2f2;
+    border: 1px solid black;
+    display: inline-block;
+    width: 437px;
+    outline: none;
+    border-radius: 12px;
+    padding: 4px 44px;
+}
+
+#container-body .search-wp button {
+    font-size: 19px;
+    position: absolute;
+    left: 397px;
+    top: 3px;
+    border: none;
+    background: none;
+}
+
+#container-body #info {
+    float: left;
+    margin-top: 34px;
+    margin-left: 110px;
+}
+
+#container-body #info .information {
+    margin-right: 50px;
+}
+
+#container-body #info .information a {
+    color: black;
+    text-decoration: none;
+}
+
+#container-body #info .information i {
+    padding-left: 11px;
+    font-size: 25px;
+}
+
+#container-body #info .order i {
+    padding-left: 16px;
+    font-size: 25px;
+}
+
+#container-body #info .order {
+    margin-right: 50px;
+}
+
+#container-body #info .order a {
+    color: black;
+    text-decoration: none;
+}
+
+#container-body #info .user i {
+    padding-left: 16px;
+    font-size: 25px;
+}
+
+#container-body #info .user {
+    margin-right: 50px;
+}
+
+#container-body #info .user a {
+    color: black;
+    text-decoration: none;
+}
+
+ #cart-wp {
+    position: relative;
+    cursor: pointer;
+}
+
+ #cart-wp a {
+    color: black;
+    text-decoration: none;
+}
+
+ #cart-wp i {
+    padding-left: -3px;
+    font-size: 25px;
+}
+
+ #cart-wp .number {
+    position: absolute;
+    top: -12px;
+    right: 20px;
+    font-size: 20px;
+    font-family: 'Roboto Medium';
+}
+/*bhgygygfgftfv*/
+#cart-wp{ position: relative; cursor: pointer;}
+#cart-wp #dropdown{
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    top: 90px;
+    right: -36px;
+    width: 250px;
+    min-height: 250px;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #e1e1e1;
+    transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    z-index: 1000;
+}
+#cart-wp:hover #dropdown{
+    top: 70px;
+    opacity: 1;
+    visibility: visible;
+}
+#cart-wp .list-cart{ margin-bottom: 15px;}
+#cart-wp .list-cart li{
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #ddd;
+}
+#cart-wp .list-cart li img{
+    width: 81px;
+}
+#cart-wp .list-cart li:last-child{ 
+    margin-bottom: 0!important; 
+    border-bottom: none; 
+    padding-bottom: 0!important;
+}
+#cart-wp .list-cart .thumb{ width: 25%;}
+#cart-wp .list-cart .info{ width: 75%; padding-left: 15px;}
+#cart-wp #dropdown .desc{ margin-bottom: 15px; color: #333;}
+#cart-wp #dropdown .desc span{ color: #d9263c; font-family: 'Roboto Medium';}
+#cart-wp #dropdown .list-cart .info .product-name{
+    display: block;
+    font-size: 16px;
+    color: #333;
+}
+#cart-wp #dropdown .list-cart .info .price{
+    font-weight: 600;
+    display: block;
+    font-family: 'Roboto Medium';
+    font-size: 15px;
+    color: #333;
+}
+#cart-wp #dropdown .list-cart .info .qty{
+    display: block;
+    font-size: 13px;
+    font-family: 'Roboto Light';
+    color: #999;
+}
+#cart-wp #dropdown .total-price{
+    text-transform: uppercase;
+    font-family: 'Roboto Medium';
+    font-size: 15px;
+    margin-bottom: 15px;
+    color: #000;
+    line-height: normal;
+}
+#cart-wp #dropdown .total-price p.price.fl-right {
+    font-weight: 600;
+}
+#cart-wp #dropdown .action-cart a{
+    display: block;
+    padding: 5px 20px;
+    font-family: 'Roboto Bold';
+    text-transform: uppercase;
+    font-size: 12px;
+}
+#cart-wp #dropdown .action-cart a.view-cart{ background: #ddd; color: #333; font-weight: 600;}
+#cart-wp #dropdown .action-cart a.checkout{ background: #d9263c; color: #fff; font-weight: 600;}
+#cart-wp #dropdown .action-cart a.view-cart:hover{ background: #ccc;}
+#cart-wp #dropdown .action-cart a.checkout:hover{ background: #af1427;}

@@ -1,0 +1,342 @@
+* {
+    margin:0px;
+    padding:0px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.clearfix:after {
+    display:block;
+    clear:both;
+}
+ 
+/*----- Phần menu -----*/
+.menu {
+    width: auto;
+    margin:0px auto;
+    background: #41b0b3;
+    height: 49px;
+}
+.menu > li {
+    list-style:none;
+}
+.menu a {
+    transition:all linear 0.15s;
+    color:#919191;
+    text-decoration:none;
+}
+
+/*----- css cho phần menu cha -----*/
+.menu > ul > li {
+    float: left;
+    display:inline-block;
+    position:relative;
+}
+.menu > ul > li > a {
+    padding:12px 35px;
+    display:inline-block;
+    color: white;
+    font-size: 17px;
+}
+.menu > ul > li:hover > a{
+    background:#F1F1F1;
+    color: #333;
+    text-decoration:none;
+}
+/*----css cho menu con----*/
+.menu li:hover .sub-menu {
+    z-index:1;
+    opacity:1;
+}
+.sub-menu {
+    height: 105%;
+    width: 200%;
+    position:absolute;
+    top:100%;
+    left:0px;
+    z-index:-1;
+    opacity:0;
+    transition:opacity linear 0.15s;
+    box-shadow:3px 3px 15px 0px rgba(0,0,0,0.2);
+    background:#41b0b3;
+}
+.sub-menu li {
+    display:block;
+    font-size:17px;
+}
+.sub-menu li a {
+    color: white;
+    padding:13px 30px;
+    display:block;
+}
+.sub-menu li a:hover, .sub-menu .current-item a {
+    background: #F1F1F1;
+    color: #333;
+}
+/*---css cho icon trang chủ---*/
+.i_con{
+    float: left;
+    text-align: center;
+    padding: 5px;
+    margin-right: 50px;
+    margin-top: 50px;
+    width: 150px;
+    color: black;
+    overflow: hidden;
+}
+.i_con:hover{
+    -webkit-transform:scale(1.2); transform:scale(1.2);
+    color: #41b0b3;
+}
+.i_con svg{
+    margin: 0px auto;
+    margin-bottom: 5px;
+    display: block;
+    font-size: 50px;
+    -webkit-transition: all 0.7s ease; transition: all 0.7s ease;
+}
+.i_con p{
+    font-size: 15px;
+    line-height: 1.5;
+    text-align: center;
+    font-weight: 500;
+}
+/* phần css cho form*/
+.container_form{
+    margin-top: 100px;
+    width: 35%;
+    max-height: 1000px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 30px 0px rgb(0 123 255 / 20%);
+}
+/* tùy chỉnh kích thước cho từng form */
+
+/* catalog */
+.add_cata{
+    width: 400px;
+    height: 365px;
+}
+.edit_cata{
+    width: 400px;
+    height: 305px;
+}
+
+/* product */
+.add_pro{
+    width: 400px;
+    height: 550px;
+}
+.edit_pro{
+    width: 400px;
+    height: 500px;
+}
+
+/* cart */
+.edit_cart{
+    width: 400px;
+    height: 420px;
+}
+.edit_detail{
+    width: 400px;
+    height: 310px;
+}
+
+/* customer */
+.add_cus{
+    width: 400px;
+    height: 470px;
+}
+.edit_cus{
+    width: 400px;
+    height: 470px;
+}
+
+/* BIểu đồ */
+.chart{
+    width: 645px;
+    height: 470px;
+}
+/* form chung */
+.form-group{
+    width: 100%;
+    margin: 5px;
+    margin-top:25px;
+}
+.form-group > .form-control{
+    width: 100%;
+    padding: 5px;
+}
+.form-group-hide{
+    display: none;
+}
+.title{
+    padding-top: 25px;
+    font-size: 25px;
+    display: inline-block;
+    color: #5CA17C; /*non-webkit fallback*/
+    background-image: linear-gradient(to bottom, #26BDA6, #65d4ff, #2778c4, #17a2b8);
+    background-size: auto 250%;
+    transition: background-position 0.5s;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-position: 0 100%;
+}
+.title:hover{
+    background-position: 0 0;
+    cursor: pointer;
+}
+
+/* searh của trang product */
+.search-box {  
+    height: 40px;
+    display: inline-block;
+    width: 100%;
+    border-radius: 3px;
+    padding: 0px 40px 0px 0px;
+    position: relative;
+    background: #fff;
+    border: 1px solid #ddd;
+    -webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+    margin-left: 10px;
+    margin-top: 9px;
+}
+.search-box input[type=text] { 
+    border: none;  
+    box-shadow: none;  
+    display: inline-block;  
+    padding: 0;  
+    background: transparent;
+} 
+.search-box .search-btn {  
+    position: absolute;  
+    right: -1px;  
+    top: -1px;  
+    color: #fff;  
+    background-color: #41b0b3; 
+    border-radius: 3px;  
+    font-size: 21px;  
+    padding: 5px 10px 1px;  
+    -webkit-transition: all 200ms ease-in-out;  
+    -moz-transition: all 200ms ease-in-out;  
+    transition: all 200ms ease-in-out;
+}    
+.form-group-select{
+    width: 400px;
+    margin-top: 10px;
+}
+
+/* searh của thống kê */
+#container_thongke{
+    padding: 20px 0px 30px 10px;
+}
+.form_searh_thongke{
+    display: inline-flex;
+    width: 500px;
+    margin-top: 10px;
+}
+.title_thongke{
+    width: 370px;
+}
+/* Button xóa tât cả */
+.btn_xoaAll{
+    position: absolute;
+    top: 78px;
+    left: 290px;
+}
+
+/* ảnh khách hàng */
+.login100-pic img{
+    max-width: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+    filter: hue-rotate(40deg) contrast(120%);
+    box-shadow: 5px 10px 20px 0 rgba(0,0,0,.2);
+    display: block;
+    transition: all .5s cubic-bezier(0.645, 0.045, 0.355, 1);
+    margin-top: -5px;
+}
+.login100-pic:hover img{
+    box-shadow: 1px 1px 10px 0 rgba(0,0,0,.1);
+}
+.login100-pic{
+    width: 180px;
+}
+.login100-pic .glow-wrap{
+    overflow: hidden;
+    position: absolute;
+    width: 180px;
+    height: 220px;
+    top: 80px;
+    margin-top: -10px;
+}
+.login100-pic .glow{
+    display: block;
+    position:absolute;
+    width: 40%;
+    height: 200%;
+    background: rgba(255,255,255,.2);
+    filter: blur(5px);
+    transform: rotate(45deg) translate(-450%, 0);
+    transition: all .5s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.login100-pic:hover .glow{
+    transform: rotate(45deg) translate(450%, 0);
+    transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.login100-pic:hover img,
+.login100-pic:hover .glow-wrap{
+    margin-top: 0;
+}
+
+/* Thông tin người đăng nhập */
+.tk{
+    margin-top: 10%;
+    margin-right: 30%;
+}
+.tt_tk{
+    margin-top: 25px;
+}
+.tt_tk p{
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+    font-weight: 500;
+    text-transform: uppercase;
+    display: inline-block;
+    color: #5CA17C; /*non-webkit fallback*/
+    background-image: linear-gradient(to bottom, #26BDA6, #65d4ff, #2778c4, #17a2b8);
+    background-size: auto 250%;
+    transition: background-position 0.5s;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-position: 0 100%;
+}
+.tt_tk p:hover{
+    background-position: 0 0;
+    cursor: pointer;
+}
+/* button cho phần trang chủ */
+.btn_quantri{
+    display: flex;
+    margin-left: 105px;
+}
+.button_logout{
+    margin-right: 10px;
+}
+
+
+/* giữ nguyên hiệu ứng khi người dùng click trên header */
+.list{
+    background-color: #F1F1F1;
+}
+.list > a{
+    color: black !important;
+}
+
+/* css cho thanh phân trang */
+.phantrang{
+    text-align: center;
+}
+.pagination{
+    display:inline-flex
+}

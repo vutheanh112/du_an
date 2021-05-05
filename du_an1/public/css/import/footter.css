@@ -1,0 +1,79 @@
+#footter{
+  
+
+    min-height: 748px;
+background-color: #141414;
+
+}
+
+.list-menu{
+    margin-left: 86px;
+    padding-bottom: 120px;
+    border-bottom: 1px solid #363636;
+}
+.list-menu .section-menu {
+    padding-top: 70px;
+    margin-top: 70p;
+    padding-bottom: 21px;
+}
+.list-menu .section-menu h4{
+    font-size: 17px;
+    color: white;
+    text-transform: uppercase;
+}
+.list-menu  ul li {
+    padding: 6px 0px;
+}
+.list-menu  ul li a{
+color: #666666;
+text-decoration: none;
+}
+.wp-list-menu {
+    padding-right: 142px;
+}
+.wp-list-netword ul li{
+    padding: 9px 17px;
+    background: white;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-right: 17px;
+}
+.wp-list-netword ul li a i {
+    color: black;
+    font-size: 26px;
+}
+.wp-form-info{
+    margin-top: 23px;
+}
+.wp-form-info h4 {
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+}
+.wp-form-info iframe {
+    height: 255px;
+    width: 352px;  
+}
+
+
+
+/*footter-bot*/
+.footter-bot {
+    margin-left: 86px;
+    margin-top: 31px;
+    width: 238px;
+}.footter-bot .copy-right ul li {
+    margin-left: 10px;
+    margin-right: 28px;
+}
+#foot-bot {
+    width: 100%;
+    background-color: #323030;
+    text-align: center;
+    height: 45px;
+}
+#foot-bot p.copyright {
+    color: white;
+    line-height: 45px;
+}
